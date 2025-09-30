@@ -1,74 +1,75 @@
-🛠️ 𝐍𝐋𝐏 𝐓𝐨𝐨𝐥𝐤𝐢𝐭 - 𝐀𝐥𝐥-𝐢𝐧-𝐎𝐧𝐞 𝐓𝐞𝐱𝐭 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐀𝐩𝐩
+# NLP Toolkit - All-in-One Text Processing App
 
-This is a beginner-friendly NLP Toolkit Web App, designed to make text-related tasks simple and accessible — no complicated setups, no switching between tools!
+This is a beginner-friendly NLP Toolkit Web App, designed to make text-related tasks simple and accessible — no complicated setups, no switching between tools.
 
-I built this as part of my Generative AI & Chatbot Development course at SMIT, keeping in mind how much time we spend on data cleaning and text processing, especially during AI and chatbot projects.
+I built this as part of my Generative AI & Chatbot Development course at SMIT, keeping in mind how much time is spent on data cleaning and text processing, especially during AI and chatbot projects.
 
-✨ 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
+## Features
 
-✅ Text Processing (Tokenization, POS Tags, NER, Lemmatization)
-✅ Sentiment Analysis (Polarity, Subjectivity, WordCloud)
-✅ News Article Classification (Using ML pipeline)
-✅ Text Cleaning (Lowercase, Punctuation, Numbers, Stopwords Removal)
-✅ Text Summarization (LexRank, Luhn, LSA methods)
-✅ Text Translation (Multiple languages)
-✅ Voice Translation (Speech-to-text + Translation + Text-to-speech)
+* Text Processing: Tokenization, POS Tags, NER, Lemmatization
+* Sentiment Analysis: Polarity, Subjectivity, WordCloud
+* News Article Classification (Machine Learning pipeline)
+* Text Cleaning: Lowercase, punctuation, numbers, stopwords removal
+* Text Summarization: LexRank, Luhn, LSA methods
+* Text Translation (multiple languages)
+* Voice Translation (speech-to-text, translation, text-to-speech)
 
-💡 𝐖𝐡𝐲 𝐓𝐡𝐢𝐬 𝐀𝐩𝐩?
+## Why This App?
 
-When working on chatbot or AI projects, I noticed:
+During chatbot and AI projects, I noticed:
 
-Text cleaning & preprocessing wastes a lot of time
+* Text cleaning and preprocessing consumes significant time
+* Beginners often struggle with multiple tools and complex code
+* Translation is frequently required but not easy to integrate
 
-Beginners struggle with multiple tools & complex code
+This app brings these features together into one simple solution.
 
-Translation is often needed but hard to integrate
+## Tech Stack
 
-So, I thought — Why not build one simple app that brings these features together?
+* Streamlit — Web app framework
+* spaCy & NLTK — NLP processing
+* TextBlob — Sentiment analysis
+* scikit-learn — News classification
+* Sumy — Text summarization
+* GoogleTranslator & gTTS — Translation and speech
+* SpeechRecognition & pydub — Voice input handling
 
-🔧 𝗧𝗲𝗰𝗵 𝗦𝘁𝗮𝗰𝗸
+## How to Run
 
-Streamlit — Fast UI for web apps
+Clone this repository:
 
-spaCy & NLTK — NLP processing
+```bash
+git clone https://github.com/anamjafar6/nlp-toolkit.git
+cd nlp-toolkit
+```
 
-TextBlob — Sentiment Analysis
+Install dependencies:
 
-scikit-learn — News classification
-
-Sumy — Text summarization
-
-GoogleTranslator & gTTS — Translation & speech
-
-SpeechRecognition & pydub — Voice input handling
-
-🚀 𝗛𝗼𝘄 𝘁𝗼 𝗥𝘂𝗻
-
-Clone this repo:
-git clone https://github.com/anamjafar6/nlp-toolkit.git  
-cd nlp-toolkit  
-
-𝗜𝗻𝘀𝘁𝗮𝗹𝗹 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗲𝘀:
-
+```bash
 pip install -r requirements.txt
+```
 
-𝗥𝘂𝗻 𝘁𝗵𝗲 𝗮𝗽𝗽:
+Run the app:
 
-streamlit run app.py  
+```bash
+streamlit run app.py
+```
 
-🎓 𝐀𝐛𝐨𝐮𝐭 𝐭𝐡𝐞 𝐏𝐫𝐨𝐣𝐞𝐜𝐭
+## About the Project
 
 This project was created as part of my learning journey with SMIT's Generative AI & Chatbot Development course.
 It helped me explore real-world problems, apply NLP techniques, and improve my practical coding skills.
 
-📬 𝗙𝗲𝗲𝗱𝗯𝗮𝗰𝗸 & 𝗦𝘂𝗴𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝘀
-I'm still learning and open to feedback!
+## Feedback & Suggestions
+
+I am still learning and open to feedback.
 If you have suggestions or ideas to improve this app, feel free to open an issue or connect with me.
 
-✨ Connect
-LinkedIn: [www.linkedin.com/in/
-anam-jafar-a18931285
-]
-GitHub: [https://github.com/anamjafar6]
+## Connect
 
-🌟 Thank you for checking out my project!
+* LinkedIn: [www.linkedin.com/in/anam-jafar6/](https://www.linkedin.com/in/anam-jafar6/)
+* GitHub: [github.com/anamjafar6](https://github.com/anamjafar6)
+
+---
+
+Do you also want me to create a **shorter, polished version** (like a one-page professional README) for recruiters who might just skim through, or should I keep this detailed one only?
